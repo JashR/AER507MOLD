@@ -5,7 +5,7 @@ M104 S205 ; set temperature
 G28 ; home all axes
 G1 Z5 F5000 ; lift nozzle
 
-; Filament gcode
+
 
 M109 S205 ; set temperature and wait for it to be reached
 G21 ; set units to millimeters
